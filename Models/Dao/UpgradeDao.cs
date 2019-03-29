@@ -82,6 +82,7 @@ namespace DotnetCoreServer.Models
                         }
                     }
                 }
+                conn.Close();
 
             }
             
